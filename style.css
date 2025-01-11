@@ -33,10 +33,6 @@ img {
   font-size: 62.5%;
 }
 
-.ingredients {
-  color: #A54328;
-}
-
 button {
   font-family: "Source Serif 4", serif;
   background-color: #A54328;
@@ -71,4 +67,36 @@ ul, ol {
 
 ul {
   margin-bottom: 2.4rem;
+}
+
+@media (min-width: 1120px) {
+  main {
+    flex-direction: row;
+    max-width: fit-content;
+    gap: 16rem;
+  }
+
+  .recipe {
+    max-width: 43.5rem;
+  }
+
+  .ingredients {
+    max-width: 52.5rem;
+  }
+
+  h1, h2 {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  p, li, strong {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  button {
+    padding: 1rem 2rem;
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+  }
 }
