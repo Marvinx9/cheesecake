@@ -14,10 +14,10 @@
 
   <section>
     <h2>Screen Mobile</h2>
-    <img src="img/mobile.screen.png" alt="screen mobile for readme">
+    <img src="img/mobile-screen.png" alt="screen mobile for readme">
   </section>
   
   <section>
     <h2>Screen Web</h2>
-    <img src="img/web.screen.png" alt="screen web for readme">
+    <img src="img/web-screen.png" alt="screen web for readme">
   </section>
